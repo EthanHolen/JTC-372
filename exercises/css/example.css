@@ -1,0 +1,17 @@
+#top {
+  background-color: sienna;
+  width: 800px;
+}
+
+#top p {
+  font-family: Georgia;
+}
+
+#bottom {
+  background-color: green;
+  width: 400px;
+}
+
+#bottom p {
+  font-family: Arial, Helvetica, sans-serif;
+}
