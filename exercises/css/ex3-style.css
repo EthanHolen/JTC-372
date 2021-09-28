@@ -5,12 +5,21 @@ body {
 
 #wrapper {
     width: 900px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 header {
 	background: #cc3232;
 	padding: 10px;
-    padding-left: 190px;
+    /* padding-left: 190px; */
+}
+
+
+header img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 nav {
