@@ -1,0 +1,11 @@
+#wrapper {
+  max-width: 960px;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}

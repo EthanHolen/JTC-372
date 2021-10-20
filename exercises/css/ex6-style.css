@@ -1,0 +1,99 @@
+img {
+  display: block;
+}
+
+body {
+  background-color: #98520c;
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  display: flex;
+}
+
+.wrapper {
+  max-width: 800px;
+  margin: 15px auto;
+  border-top: 15px solid;
+  border-bottom: 15px solid;
+  /* background-color: #000; */
+  background-color: white;
+}
+
+.logos {
+  background-color: black;
+}
+
+.logo_top {
+  background-color: white;
+  padding: 0px 125px;
+}
+.logo_bottom {
+  background-color: black;
+  float: right;
+  background-color: black;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.content {
+  display: flex;
+  background-image: url(../images/guitar.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom left;
+}
+
+nav {
+  width: 25%;
+
+  /* margin: 0;
+  padding: 0px; */
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+nav ul {
+  list-style: none;
+  background-color: #ce8a20;
+  align-items: left;
+  margin: 0;
+
+  padding: 0;
+}
+
+nav li {
+  border-bottom: 1px solid;
+  padding: 10px 0px;
+  padding-left: 10px;
+}
+
+main {
+  padding: 10px;
+  width: 50%;
+}
+
+main p {
+  border-bottom: 1px dotted black;
+  padding-bottom: 10px;
+  padding: 5px;
+}
+
+main img {
+  float: right;
+  /* padding: 5px; */
+  border: 1px solid black;
+}
+
+aside {
+  padding: 10px;
+  background-color: #feffcb;
+  max-width: 240px;
+  width: 25%;
+}
+
+aside img {
+  padding: 10px 20px;
+}
