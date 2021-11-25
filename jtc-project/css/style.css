@@ -43,14 +43,21 @@ nav a {
 }
 
 footer {
-  background-color: #e3dbc4;
-  color: white;
+  /* background-color: #e3dbc4; */
+  color: grey;
   font-size: 30px;
+  /* position: fixed; */
+  bottom: 0;
+  max-width: 1200px;
+  width: 100%;
+  padding: 0px 10px 0px 10px;
+  flex-shrink: 0;
+  /* height: 80px; */
 }
 
 footer a {
   text-decoration: none;
-  color: white;
+  color: grey;
 }
 
 @media screen and (max-width: 800px) {
