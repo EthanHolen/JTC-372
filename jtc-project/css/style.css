@@ -14,7 +14,7 @@ nav {
 }
 
 nav ul {
-  text-align: center;
+  text-align: left;
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -25,7 +25,11 @@ nav ul {
   font-size: 300%;
 }
 
-header img {
+.head-image {
+  background-color: #e4dbc4;
+}
+
+.head-image img {
   width: 100%;
 }
 
@@ -45,13 +49,14 @@ nav a {
 footer {
   /* background-color: #e3dbc4; */
   color: grey;
-  font-size: 30px;
+  font-size: 20px;
   /* position: fixed; */
   bottom: 0;
   max-width: 1200px;
   width: 100%;
   padding: 0px 10px 0px 10px;
   flex-shrink: 0;
+  text-align: center;
   /* height: 80px; */
 }
 

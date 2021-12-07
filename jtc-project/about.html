@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Cassie Roth</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/about.css" />
+    <!-- <link
+      rel="stylesheet"
+      href="css/narrow.css"
+      media="only screen and (max-width:900px)"
+    /> -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lateef&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <!-- <website-header></website-header> -->
+    <header>
+      <script>
+        $(document).ready(function () {
+          $(".cross").hide();
+          $(".menu").hide();
+          $(".hamburger").click(function () {
+            $(".menu").slideToggle("slow", function () {
+              $(".hamburger").hide();
+              $(".cross").show();
+            });
+          });
+
+          $(".cross").click(function () {
+            $(".menu").slideToggle("slow", function () {
+              $(".cross").hide();
+              $(".hamburger").show();
+            });
+          });
+        });
+      </script>
+
+      <div class="wrapper">
+        <nav>
+          <ul>
+            <li>
+              <b><a href="index.html">Home</a></b>
+            </li>
+            <li>
+              <b><a href="buy.html">Buy</a></b>
+            </li>
+            <li>
+              <b><a href="gallery.html">Gallery</a></b>
+            </li>
+            <li>
+              <b><a href="about.html">About</a></b>
+            </li>
+            <li>
+              <b><a href="contact.html">Contact</a></b>
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+      <div id="mobile">
+        <button class="hamburger">&#x2261;</button>
+        <button class="cross">x</button>
+      </div>
+
+      <div class="menu">
+        <ul>
+          <li>
+            <b><a href="index.html">Home</a></b>
+          </li>
+          <li>
+            <b><a href="buy.html">Buy</a></b>
+          </li>
+          <li>
+            <b><a href="gallery.html">Gallery</a></b>
+          </li>
+          <li>
+            <b><a href="about.html">About</a></b>
+          </li>
+          <li>
+            <b><a href="contact.html">Contact</a></b>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <div class="content">
+      <div class="side-text">
+        <h1>Cassie Roth</h1>
+        <p>
+          Hi, I'm Cassie! <br />
+          I'm an artist, and student at Colorado State University pursuing a
+          major in Human Development and Family Studies. I love kids and hope to
+          be a teacher when I graduate.
+        </p>
+      </div>
+
+      <div class="side-image">
+        <img
+          src="images/cassie2.jpg"
+          alt="Cassie standing next to pine trees"
+        />
+      </div>
+    </div>
+    <footer>
+      <p>Created by <a href="https://ethanholen.com">Ethan Holen</a></p>
+    </footer>
+  </body>
+</html>
