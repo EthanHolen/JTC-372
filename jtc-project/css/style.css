@@ -110,7 +110,7 @@ footer a {
   .hamburger {
     display: block;
     background: none;
-    color: #fff;
+    color: #41261b;
     border: none;
     font-size: 2em;
     font-weight: bold;
@@ -122,7 +122,7 @@ footer a {
   .cross {
     display: block;
     background: none;
-    color: #fff;
+    color: #41261b;
     border: none;
     font-size: 2em;
     font-weight: bold;
@@ -135,7 +135,7 @@ footer a {
     z-index: 1000;
     font-weight: bold;
     width: 97%;
-    background: #f1f1f1;
+    background: #41261b;
     position: absolute;
     text-align: center;
   }
@@ -159,7 +159,7 @@ footer a {
 
   .menu a {
     text-decoration: none;
-    color: #e3dbc4;
+    color: #41261b;
   }
 
   .menu a:hover {
